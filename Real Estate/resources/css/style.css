@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}    
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Ubuntu', 'Roboto' , sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1140px;
+    margin: auto;
+}
+
+/*==================================
+HEADER
+==================================*/
+
+header{
+    background-image:linear-gradient(170deg,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.07)) , url(mansion.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    color: #fff;
+    font-size: 240%;
+    font-weight: 700;
+    
+}
+
+.mansion-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 28%;
+    left: 35%;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+
+.mansion-para{
+    color: #fff;
+    margin-top: 10px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+/*=======   NAVIGATION  ============*/
+
+.main-nav{
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    display: inline-block;    
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #000;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: 500;
+    padding: 8px 0px;
+    transition: color 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    color: rgba(26, 71, 222, 0.82);
+}
+
+.main-nav-right{
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block; 
+}
+
+.main-nav-right li{
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+
+.main-nav-right li a:link,
+.main-nav-right li a:visited{
+    color: #000;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: 500;
+    padding: 8px 0px;
+    transition: 0.2s;
+}
+
+.main-nav-right li a:hover,
+.main-nav-right li a:active{
+    color: rgba(26, 71, 222, 0.82);
+}
+
+/*=======   LOGO  ============*/
+
+.logo{
+    display: inline-block;
+    margin-left: 20%
+}
+
+.icon-big
+{
+    margin-right: 10px;
+    line-height: 120%;
+    vertical-align: middle;
+    font-size: 245%;
+    margin:auto 0;
+    color: rgba(0, 59, 255, 0.67);
+}
+
+.logo-para{
+    float: right;
+    text-align: center;
+    font-size: 215%;
+    color: rgba(0, 59, 255, 0.67);
+}
+
+/*==================================
+SECTION-FEATURES
+==================================*/
+
+section{
+    padding: 80px 0;
+}
+
+h2{ 
+    max-width: 950px;
+    width: 100%;
+    text-align: center;
+    margin: 72px auto;
+    padding: 0px 32px;
+    margin-top: 0px;
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color:rgba(26, 71, 222, 0.82);
+    content: "";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+h3{
+    margin: 25px;
+    display: block;
+    margin-left: 90px;
+    color: #000;
+    font-size: 120%;
+}
+
+.long-copy{
+    line-height: 145%;
+    
+    font-size: 90%;
+    padding: 1%;
+}
+
+
+.buss-img{
+    height: 120px;
+    width: auto;
+    display: block;
+    margin:  auto;
+}
+
+.buss-btn:link,
+.buss-btn:visited{
+    margin-top: 15px;
+    margin-left: 75px;
+    display: inline-block;
+    padding: 10px 15px;
+    font-weight: 100;
+    text-decoration: none;
+    color: #1a47de;
+    border: 1px solid #555;
+    transition: background-color 0.5s, border 0.2s;
+}
+
+.buss-btn:hover,
+.buss-btn:active{
+    color: #fff;
+    background-color: rgba(26, 71, 222, 0.82);
+    border: 1px solid #0931b6;
+}
+
+.section-features{
+    background-color: #f4f4f4;
+}
+
+.plan-box{
+    background-color: #fff;
+    padding: 25px;
+}
+
+/*==================================
+CUSTOMERS
+==================================*/
+
+.img-customer{
+    height: 400px;
+    width: auto;
+    border-radius: 200px;
+    float: left;
+}
+
+.review{
+    margin-top: 30px;
+}
+
+.sentence{
+    display: block;
+    margin-top: 60px;
+    
+    text-align:center;
+}
+
+/* ******* FIND YOUR PROPERTY  ********* 
+****************************************   */
+
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgba(119, 82, 82, 0.15);
+    overflow: auto;
+}
+
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+
+.gallery img{
+    height: 350px;
+    width: 100%
+    
+};
+
+.discription{
+    padding: 15px;
+    text-align: center;
+}
+
+.home-btn a:link,
+.home-btn a:visited{
+    text-decoration: none;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: #000;
+    border: 1px solid rgba(26, 71, 222, 0.82);
+    padding: 5px 15px;
+    transition: color 0.3s, background-color 0.5s, border 0.4s;
+}
+
+.home-btn a:hover,
+.home-btn a:active{
+    color: #fff;
+    background-color: rgba(26, 71, 222, 0.82);
+    border: 1px solid rgba(26, 71, 222, 0.94);
+}
+
+/* ******* OFFERS  *********************
+****************************************   */
+
+.section-offers{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.54),rgba(0, 0, 0, 0.71)),url(happy%20customers.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.offer-heading h2{
+    margin-top: 50px;
+    color: #fff;
+}
+
+.offer-para{
+    color: #fff;
+}
+
+.offer-para span{
+    color: rgb(102, 240, 102);
+    font-weight: 700;
+    margin-left: 5px;
+    padding: 5px 5px;
+    border-bottom: 2px solid rgb(104, 131, 221);
+}
+
+.home-btn a:link,
+.home-btn a:visited{
+    text-decoration: none;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: #000;
+    border: 1px solid rgba(26, 71, 222, 0.82);
+    padding: 5px 15px;
+    transition: color 0.3s, background-color 0.5s, border 0.4s;
+}
+
+.home-btn a:hover,
+.home-btn a:active{
+    color: #fff;
+    background-color: rgba(26, 71, 222, 0.82);
+    border: 1px solid rgba(26, 71, 222, 0.94);
+}
+
+/* ******* OUR SERVICES  ********* 
+****************************************   */
+
+.our-services{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),    rgba(0, 0, 0, 0.88)),url(meeting.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;    
+}
+
+.our-heading{
+    font-size: 120%;
+    font-weight: 200;
+    position: absolute;
+    width: 1140px;
+    top: 60%;
+    left: 15%;
+}
+
+.our-logo{
+    position: absolute;
+    top: 7%;
+    left: 1%;
+}
+
+.navigation li{
+    display: inline-block;
+    
+}
+
+.first-nav span{
+    font-size: 130%;
+    color: rgba(44, 44, 239, 0.57);
+    font-weight: 700;
+}
+
+.first-nav{
+    color: #fff;
+}
+
+.second-nav{
+    color: #fff;
+}
+
+.base-para{
+    margin-left: 20px;
+    font-size: 80%;
+}
+
+.base-para-btn{
+    text-decoration: none;
+    color: #3b3bc6;
+}
+
+.our-message{
+    text-align: center;
+    font-size: 180%;
+    font-weight: 700;
+    padding: 100px;
+    color: #fff;
+    background-color: #3390e9;
+    margin-top: 20px;
+}
+
+/* ******* SIGN-UP  ********* 
+****************************************   */
+
+.send-btn{
+    margin-left: 20px;
+    padding: 20px 20px;
+}
